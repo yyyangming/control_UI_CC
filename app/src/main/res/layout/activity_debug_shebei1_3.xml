@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_debug"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.yongh.control_ui.debug">
+    <ImageButton
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/houtui"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:id="@+id/imageButton_houtui_shebei1_3"
+        android:background="#00000000" />
+
+    <TextView
+        android:text="工程师调试（3）"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:gravity="center_vertical"
+        android:textSize="25dp"
+        android:id="@+id/setting"
+        android:layout_centerHorizontal="true" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="60dp">
+            <Button
+                android:id="@+id/publish_Type_A_manual"
+                android:layout_width="150dp"
+                android:layout_height="25dp"
+                android:text="印刷单元Type_A手动"
+                android:textSize="15dp"
+                android:layout_marginLeft="20dp"
+                android:background="@android:color/background_light" />
+            <Button
+                android:id="@+id/walk_forward_manual"
+                android:layout_width="150dp"
+                android:layout_height="25dp"
+                android:textSize="15dp"
+                android:text="行走单元前进手动"
+                android:layout_marginLeft="25dp"
+                android:background="@color/colorAccent" />
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="90dp">
+        <Button
+            android:id="@+id/publish_Type_B_manual"
+            android:layout_width="150dp"
+            android:layout_height="25dp"
+            android:text="印刷单元Type_B手动"
+            android:textSize="15dp"
+            android:layout_marginLeft="20dp"
+            android:background="@android:color/background_light" />
+        <Button
+            android:id="@+id/walk_backward_manual"
+            android:layout_width="150dp"
+            android:layout_height="25dp"
+            android:textSize="15dp"
+            android:text="行走单元后退手动"
+            android:layout_marginLeft="25dp"
+            android:background="@color/colorAccent" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="130dp">
+        <Button
+            android:id="@+id/diqi_pentou_manual"
+            android:layout_width="150dp"
+            android:layout_height="25dp"
+            android:text="底漆喷头手动"
+            android:textSize="15dp"
+            android:layout_marginLeft="20dp"
+            android:background="@android:color/background_light" />
+        <Button
+            android:id="@+id/walk_clutch_manual"
+            android:layout_width="150dp"
+            android:layout_height="25dp"
+            android:textSize="15dp"
+            android:text="行走单元离合器手动"
+            android:layout_marginLeft="25dp"
+            android:background="@color/colorAccent" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="170dp">
+        <Button
+            android:id="@+id/publish_Type_A_char_pentou_manual"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:text="印刷单元Type_A字符喷头手动"
+            android:textSize="15dp"
+            android:layout_marginLeft="20dp"
+            android:background="@android:color/background_light" />
+        <Button
+            android:id="@+id/bottom_pentou_clean"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:textSize="15dp"
+            android:text="底漆喷头清洗"
+            android:layout_marginLeft="25dp"
+            android:background="@color/colorAccent" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="230dp">
+        <Button
+            android:id="@+id/publish_Type_B_char_pentou_manual"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:text="印刷单元Type_B字符喷头手动"
+            android:textSize="15dp"
+            android:layout_marginLeft="20dp"
+            android:background="@android:color/background_light" />
+        <Button
+            android:id="@+id/char_pentou_clean"
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:textSize="15dp"
+            android:text="字符喷头清洗"
+            android:layout_marginLeft="25dp"
+            android:background="@color/colorAccent" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="290dp">
+        <Button
+            android:id="@+id/guitou_red_pentou_maunal"
+            android:layout_width="150dp"
+            android:layout_height="25dp"
+            android:text="轨头红喷头手动"
+            android:textSize="15dp"
+            android:layout_marginLeft="20dp"
+            android:background="@android:color/background_light" />
+        <Button
+            android:id="@+id/publish_belt_clean"
+            android:layout_width="150dp"
+            android:layout_height="25dp"
+            android:textSize="15dp"
+            android:text="印刷单元皮带清洗"
+            android:layout_marginLeft="25dp"
+            android:background="@color/colorAccent" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="330dp">
+        <Button
+            android:id="@+id/guitou_white_pentou_maunal"
+            android:layout_width="150dp"
+            android:layout_height="25dp"
+            android:text="轨头白喷头手动"
+            android:textSize="15dp"
+            android:layout_marginLeft="20dp"
+            android:background="@android:color/background_light" />
+        <Button
+            android:id="@+id/guitou_red_pentou_clean"
+            android:layout_width="150dp"
+            android:layout_height="25dp"
+            android:textSize="15dp"
+            android:text="轨头红喷头清洗"
+            android:layout_marginLeft="25dp"
+            android:background="@color/colorAccent" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="330dp">
+        <Button
+            android:id="@+id/guitou_label_start"
+            android:layout_width="150dp"
+            android:layout_height="25dp"
+            android:text="轨头标记开始"
+            android:textSize="15dp"
+            android:layout_marginLeft="20dp"
+            android:background="@android:color/background_light" />
+        <Button
+            android:id="@+id/guitou_white_pentou_clean"
+            android:layout_width="150dp"
+            android:layout_height="25dp"
+            android:textSize="15dp"
+            android:text="轨头白喷头清洗"
+            android:layout_marginLeft="25dp"
+            android:background="@color/colorAccent" />
+    </LinearLayout>
+</RelativeLayout>
